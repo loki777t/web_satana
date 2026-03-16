@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+<title>Мой сайт BEM</title>
+</head>
+<body>
+    <!-- Header block -->
+    <header class="header">
+        <div class="header__container">
+        <div class="header__logo">МойСайт</div>
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item"><a href="#hero" class="header__nav-link">Главная</a></li>
+                    <li class="header__nav-item"><a href="#features" class="header__nav-link">Возможности</a></li>
+                    <li class="header__nav-item"><a href="#contact" class="header__nav-link">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero block -->
+    <main class="hero">
+        <div class="hero__container">
+            <h1 class="hero__title">Добро пожаловать на мой сайт BEM</h1>
+            <p class="hero__subtitle">Создан с использованием методологии BEM для масштабируемых стилей CSS.</p>
+            <a href="satana.html"><button class="button">Начать</button></a>
+        </div>
+    </main>
+
+    <!-- Features block -->
+    <section class="features" id="features">
+        <div class="features__container">
+            <h2 class="features__title">Возможности</h2>
+            <div class="features__grid">
+                <div class="feature-card">
+                    <h3 class="feature-card__title">Масштабируемый</h3>
+                    <p class="feature-card__description">BEM предотвращает конфликты.</p>
+                </div>
+                <div class="feature-card">
+                    <h3 class="feature-card__title">Поддерживаемый</h3>
+                    <p class="feature-card__description">Четкая блочная структура.</p>
+                </div>
+                <div class="feature-card">
+                    <h3 class="feature-card__title">Адаптивный</h3>
+                    <p class="feature-card__description">Дизайн с приоритетом на мобильные устройства.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer block -->
+    <footer class="footer" id="contact">
+        <div class="footer__container">
+            <p class="footer__text">&copy; 2026 МойСайт. Создан с BEM.</p>
+        </div>
+    </footer>
+</body>
+</html>
